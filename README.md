@@ -3,4 +3,4 @@ This is Perfect Money payment gateway extension for OpenCart. It is written on t
 
 If you are installing the extenion via OpenCart extension installer, please simply download PerfectMoneyExtension4OpenCart.ocmod.zip in your desired verion and upload it to your opencart extension installer.
 
-Each version contains its specific documents. Please naviate to your desired version folder to view the documentation.
+Each version contains its specific documentation. Please navigate to your desired version folder to view the documentation.

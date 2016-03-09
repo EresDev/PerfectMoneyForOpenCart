@@ -33,16 +33,16 @@ The second method is the modern one. You will utilize the new OpenCart's Extensi
 
 After installation, you can access this extension in "Administration >> Extensions >> Payments >> Perfect Money".
 
-# <a name="administration"></a>administration
+# <a name="administration"></a>Administration
 You can access the administration of this extension in "Administration >> Extensions >> Payments >> Perfect Money". You can install or un-install it here like other payment methods available in OpenCart. The extension will not work after installation unless you provide information about your Perfect Money account. To do so, click on blue Edit button in front of Perfect Money in payments list of OpenCart. Image below shows the administration of this extension.
-![alt tag]()
+![Perfect Money Configurations](https://github.com/EresDev/PerfectMoneyForOpenCart/blob/master/screenshots/v1.0/edit_perfect_money_opencart.png)
+
 Each input field of this extension's administration is explained below.
 
 √ Your Perfect Money Account: This is a required field. It is the Perfect Money account number to which, you as a merchant, want to receive payment of sales. You can find your Perfect Money account number in your Perfect Money account. Each Perfect Money account is provided with 3 account numbers for 3 different currencies. They start with 'U' for USD, 'E' for EUR, and 'G' for Gold. You can use any one of these. One thing must be taken care of is Gold account number. Gold currency is not already available in OpenCart. If you want to use Gold account, you must add Gold currency with its code as 'OAU' in OpenCart. However, you can use EUR or USD account without any extra work. NOTE: Perfect money account number and Perfect Money member ID are not same.
 
 √ Your Account Alternate Passphrase:This is a required field. A passphrase is a secret string. When you create an account on Perfect Money, it is not set by default. You have to choose one by logging into your Perfect Money account and then navigating to 'Settings' page. Find below the screenshot of settings page to set-up your passphrase.
-![alt tag]()
-
+![Configurations in Perfect Money Account](https://github.com/EresDev/PerfectMoneyForOpenCart/blob/master/screenshots/v1.0/set_passphrase_perfect_money.png)
 
 #<a name="test-and-troubleshooting"></a>Testing and Troubleshooting
 Once all required information are provided in administration of this extension, Perfect Money will be made available as payment method at your online shop. If you are unable to see Perfect Money as payment method during checkout process, it will be one of following reasons.
